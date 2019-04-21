@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+l<!DOCTYPE html>
 <html>
   <head>
     <title>PluralsightTdd</title>
@@ -10,6 +10,19 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container-fluid">
+      <nav>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><%= link_to 'new achievement', new_achievement_path %></li>
+          </ul>
+        </div>
+      </nav>
+
+      <% if flash[:notice] %>
+        <div class="alert alert-info"><%= flash[:notice] %></div>
+      <% end %>
+      <%= yield %>
+    </div>
   </body>
 </html>
