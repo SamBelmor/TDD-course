@@ -1,9 +1,13 @@
 # README
 
-Install all dependencies of the project with:
+## Clone the repository in your local with the next command:
 
-** bundle install
+    $ git clone git@github.com:SamBelmor/TDD-course.git
+    
+## Install dependencies
 
-Go to localhost
+    $ bundle install
 
-** http://localhost:3000/
+## Go to localhost
+
+    $  http://localhost:3000/
