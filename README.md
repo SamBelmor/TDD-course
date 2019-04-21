@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Clone the repository in your local with the next command:
 
-Things you may want to cover:
+    $ git clone git@github.com:SamBelmor/TDD-course.git
+    
+## Install dependencies
 
-* Ruby version
+    $ bundle install
 
-* System dependencies
+## Go to localhost
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    $  http://localhost:3000/
